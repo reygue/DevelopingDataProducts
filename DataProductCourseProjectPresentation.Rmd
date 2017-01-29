@@ -1,0 +1,44 @@
+---
+title: "Data Product Course Project"
+author: "Reynold Guerrier"
+date: "January 29, 2017"
+output: slidy_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## The application 
+
+This application aims to providing to users the most accurate information about the car that will best fit their needs based on some parameters entered like 
+
+* The distance
+* The gas price
+* The number of cylinders
+    * Four (4)
+    * SIx (6)
+    * Eight (8)
+* Horse Power 
+* Transmission type 
+    * Automatic
+    * Manual
+
+
+
+## The Dataset 
+
+We used the mtcars Dataset that can be found in any R or Rstudio installation: 
+```{r, echo=FALSE}
+
+mtcars 
+```
+
+
+## The Code source 
+The Code source can be found at this link:
+
+## Key Elements
+* Shiny Web Application running RStudio has been used to process the MTCARS Dataset.
+* R Markdown Slidy for the presentation
+
